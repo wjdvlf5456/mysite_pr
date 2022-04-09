@@ -26,23 +26,31 @@ a:active  {color: #000000; text-decoration: none;}
 #wrap {
 	margin: 0px auto;
 	width: 1000px;
+	border: 1px solid #000000;
 }
 
 #wrap > #header {
 	padding: 10px 0px 10px 0px;
+	height: 44px;
 	border-bottom: 1px solid #dfdfdf;
 }
 
 #wrap > #nav {
+	height: 59px;
 	border-bottom: 1px solid #dfdfdf;
 }
 
 #wrap > #contents {
+	height: 268px;
+	/* margin: 10px 0px 0px 0px; */
+	padding: 48px 0px 48px 0px;
 	border-bottom: 1px solid #dfdfdf;
 }
 
 #wrap > #footer {
-	background-color: #ff0000;
+	height: 64px;
+	background-color: #d9d9d9;
+	text-align: center;
 }
 
 
@@ -57,17 +65,44 @@ a:active  {color: #000000; text-decoration: none;}
 #header ul {
 	margin: 15px 0px 0px 0px;
 	float: right;
-	
 }
 
 #header > ul > li {
-	margin: 0px 0px 0px 10px;
-	font-size: 13px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 13px 0px 0px;
+	font-size: 14px;
 	float: left;
 }
 
 
+/************************ 입사지원서, 게시판, 갤러리, 방명록 ************************/
 
+#nav > ul > li {
+	/* border: 1px solid #000000; */
+	/* margin: 19px 70px 0px 70px; */
+	padding: 19px 91px 0px 91px;
+	font-size: 20px;
+	font-weight: bolder;
+	float: left;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+#contents > img {
+	padding: 0px 30px 0px 20px;
+	width: 268px;
+	height: 268px;
+	float: left;
+}
+
+
+/************************ footer ************************/
+
+#footer > p {
+	padding: 24px 0px 0px 0px;
+	font-weight: lighter;
+	font-size: 14px;
+}
 
 
 
